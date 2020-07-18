@@ -45,7 +45,8 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('BottomNavigationBar Sample'),
+        title: const Text('Youtube Tools'),
+        backgroundColor: Colors.red,
       ),
       body: Center(
         child: _widgetOptions.elementAt(_selectedIndex),

@@ -11,7 +11,15 @@ class _Home extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text("mdr"),
+        child: Container(
+          child:
+              //OutlineInputBorder(borderRadius: 2),
+              OutlineButton.icon(
+            label: Text("Download"),
+            onPressed: () {},
+            icon: Icon(Icons.file_download),
+          ),
+        ),
       ),
     );
   }
